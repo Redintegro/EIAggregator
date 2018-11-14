@@ -1,0 +1,69 @@
+2018-11-14 11:32:46,606 - __main__ - DEBUG - {'inputfiledescription': 'Activation Feed ', 'inputtypeid': '1001', 'header': 0, 'datastructure': [{'columnname': 'emp_id', 'size': 8, 'columndesc': 'Employee ID', 'datatype': 'number', 'pos': 0}, {'columnname': 'emp_city', 'size': 20, 'columndesc': 'Employee City', 'datatype': 'string', 'pos': 1}, {'columnname': 'emp_name', 'size': 1, 'columndesc': 'Employee Name', 'datatype': 'string', 'pos': 2}, {'columnname': 'mobile_no', 'size': 3, 'columndesc': 'Mobile No', 'datatype': 'number', 'pos': 3}, {'columnname': 'emp_salary', 'size': 8, 'columndesc': 'Employee Salary', 'datatype': 'number', 'pos': 4}, {'columnname': 'emp_department', 'size': 3, 'columndesc': 'Employee Department', 'datatype': 'number', 'pos': 5}, {'columnname': 'emp_designation', 'size': 3, 'columndesc': 'Employee Designation', 'datatype': 'number', 'pos': 6}, {'columnname': 'emp_dob', 'columndesc': 'Employee Date of Birth', 'datatype': 'date', 'pos': 7, 'format': 'MM/dd/yyyy'}], 'delimiter': ',', 'filenamepattern': 'data.', 'inputfilepath': '/data2/python2/enhancesys/', 'kpis': [{'measures': [{'column': 4, 'function': 'sum'}, {'column': 4, 'function': 'average'}], 'id': 'K01', 'dimensions': [{'column': 1, 'transformation': 0}, {'column': 7, 'function': 'year', 'transformation': 1}]}, {'measures': [{'column': 4, 'function': 'sum'}], 'id': 'K02', 'dimensions': [{'column': 1, 'transformation': 0}]}]}
+2018-11-14 11:32:46,611 - __main__ - DEBUG - Type kpi   :
+2018-11-14 11:32:46,611 - __main__ - DEBUG - nkppi      :{ "id":"K01","dimensions":{"kys":"1,2","seperator":","},"measures":[{"column":3,"function":"sum"},{"column":4,"function":"sum"}]}
+2018-11-14 11:32:46,611 - __main__ - DEBUG - kpi        :{'measures': [{'column': 4, 'function': 'sum'}, {'column': 4, 'function': 'average'}], 'id': 'K01', 'dimensions': [{'column': 1, 'transformation': 0}, {'column': 7, 'function': 'year', 'transformation': 1}]}
+2018-11-14 11:32:46,615 - __main__ - DEBUG - Type kpi   :
+2018-11-14 11:32:46,615 - __main__ - DEBUG - nkppi      :{ "id":"K01","dimensions":{"kys":"1,2","seperator":","},"measures":[{"column":3,"function":"sum"},{"column":4,"function":"sum"}]}
+2018-11-14 11:32:46,615 - __main__ - DEBUG - kpi        :{'measures': [{'column': 4, 'function': 'sum'}], 'id': 'K02', 'dimensions': [{'column': 1, 'transformation': 0}]}
+2018-11-14 11:32:46,617 - __main__ - DEBUG - Input Type ID          :1001
+2018-11-14 11:32:46,618 - __main__ - DEBUG - Input File Description :Activation Feed 
+2018-11-14 11:32:46,618 - __main__ - DEBUG - Data Structure         :[X(columnname='emp_id', size=8, columndesc='Employee ID', datatype='number', pos=0), X(columnname='emp_city', size=20, columndesc='Employee City', datatype='string', pos=1), X(columnname='emp_name', size=1, columndesc='Employee Name', datatype='string', pos=2), X(columnname='mobile_no', size=3, columndesc='Mobile No', datatype='number', pos=3), X(columnname='emp_salary', size=8, columndesc='Employee Salary', datatype='number', pos=4), X(columnname='emp_department', size=3, columndesc='Employee Department', datatype='number', pos=5), X(columnname='emp_designation', size=3, columndesc='Employee Designation', datatype='number', pos=6), X(columnname='emp_dob', columndesc='Employee Date of Birth', datatype='date', pos=7, format='MM/dd/yyyy')]
+2018-11-14 11:32:46,618 - __main__ - DEBUG - Kpis                   :[X(measures=[X(column=4, function='sum'), X(column=4, function='average')], id='K01', dimensions=[X(column=1, transformation=0), X(column=7, function='year', transformation=1)]), X(measures=[X(column=4, function='sum')], id='K02', dimensions=[X(column=1, transformation=0)])]
+2018-11-14 11:32:46,618 - __main__ - DEBUG - Id of KPI  :K01
+2018-11-14 11:32:46,618 - __main__ - DEBUG - Dimensions :[X(column=1, transformation=0), X(column=7, function='year', transformation=1)]
+2018-11-14 11:32:46,618 - __main__ - DEBUG - kpi.dimensions[X].column      :1
+2018-11-14 11:32:46,619 - __main__ - DEBUG - kpi.dimensions[X].transformation  :0
+2018-11-14 11:32:46,619 - __main__ - DEBUG - kpi.dimensions[X].column      :7
+2018-11-14 11:32:46,619 - __main__ - DEBUG - kpi.dimensions[X].transformation  :1
+2018-11-14 11:32:46,619 - __main__ - DEBUG - kpi.dimensions[X].function     :year
+2018-11-14 11:32:46,619 - __main__ - DEBUG - Measures   :[X(column=4, function='sum'), X(column=4, function='average')]
+2018-11-14 11:32:46,619 - __main__ - DEBUG - measure.column   :4
+2018-11-14 11:32:46,619 - __main__ - DEBUG - measure.function :sum
+2018-11-14 11:32:46,620 - __main__ - DEBUG - measure.column   :4
+2018-11-14 11:32:46,620 - __main__ - DEBUG - measure.function :average
+2018-11-14 11:32:46,620 - __main__ - DEBUG - Id of KPI  :K02
+2018-11-14 11:32:46,620 - __main__ - DEBUG - Dimensions :[X(column=1, transformation=0)]
+2018-11-14 11:32:46,620 - __main__ - DEBUG - kpi.dimensions[X].column      :1
+2018-11-14 11:32:46,620 - __main__ - DEBUG - kpi.dimensions[X].transformation  :0
+2018-11-14 11:32:46,620 - __main__ - DEBUG - Measures   :[X(column=4, function='sum')]
+2018-11-14 11:32:46,620 - __main__ - DEBUG - measure.column   :4
+2018-11-14 11:32:46,620 - __main__ - DEBUG - measure.function :sum
+2018-11-14 11:32:46,620 - __main__ - DEBUG - column.pos         :0
+2018-11-14 11:32:46,620 - __main__ - DEBUG - column.columnname  :emp_id
+2018-11-14 11:32:46,620 - __main__ - DEBUG - column.columndesc  :Employee ID
+2018-11-14 11:32:46,620 - __main__ - DEBUG - column.datatype    :number
+2018-11-14 11:32:46,620 - __main__ - DEBUG - column.size        :8
+2018-11-14 11:32:46,621 - __main__ - DEBUG - column.pos         :1
+2018-11-14 11:32:46,621 - __main__ - DEBUG - column.columnname  :emp_city
+2018-11-14 11:32:46,621 - __main__ - DEBUG - column.columndesc  :Employee City
+2018-11-14 11:32:46,621 - __main__ - DEBUG - column.datatype    :string
+2018-11-14 11:32:46,621 - __main__ - DEBUG - column.size        :20
+2018-11-14 11:32:46,621 - __main__ - DEBUG - column.pos         :2
+2018-11-14 11:32:46,621 - __main__ - DEBUG - column.columnname  :emp_name
+2018-11-14 11:32:46,621 - __main__ - DEBUG - column.columndesc  :Employee Name
+2018-11-14 11:32:46,621 - __main__ - DEBUG - column.datatype    :string
+2018-11-14 11:32:46,621 - __main__ - DEBUG - column.size        :1
+2018-11-14 11:32:46,621 - __main__ - DEBUG - column.pos         :3
+2018-11-14 11:32:46,621 - __main__ - DEBUG - column.columnname  :mobile_no
+2018-11-14 11:32:46,621 - __main__ - DEBUG - column.columndesc  :Mobile No
+2018-11-14 11:32:46,621 - __main__ - DEBUG - column.datatype    :number
+2018-11-14 11:32:46,621 - __main__ - DEBUG - column.size        :3
+2018-11-14 11:32:46,622 - __main__ - DEBUG - column.pos         :4
+2018-11-14 11:32:46,622 - __main__ - DEBUG - column.columnname  :emp_salary
+2018-11-14 11:32:46,622 - __main__ - DEBUG - column.columndesc  :Employee Salary
+2018-11-14 11:32:46,622 - __main__ - DEBUG - column.datatype    :number
+2018-11-14 11:32:46,622 - __main__ - DEBUG - column.size        :8
+2018-11-14 11:32:46,622 - __main__ - DEBUG - column.pos         :5
+2018-11-14 11:32:46,622 - __main__ - DEBUG - column.columnname  :emp_department
+2018-11-14 11:32:46,622 - __main__ - DEBUG - column.columndesc  :Employee Department
+2018-11-14 11:32:46,622 - __main__ - DEBUG - column.datatype    :number
+2018-11-14 11:32:46,622 - __main__ - DEBUG - column.size        :3
+2018-11-14 11:32:46,622 - __main__ - DEBUG - column.pos         :6
+2018-11-14 11:32:46,623 - __main__ - DEBUG - column.columnname  :emp_designation
+2018-11-14 11:32:46,623 - __main__ - DEBUG - column.columndesc  :Employee Designation
+2018-11-14 11:32:46,623 - __main__ - DEBUG - column.datatype    :number
+2018-11-14 11:32:46,623 - __main__ - DEBUG - column.size        :3
+2018-11-14 11:32:46,623 - __main__ - DEBUG - column.pos         :7
+2018-11-14 11:32:46,623 - __main__ - DEBUG - column.columnname  :emp_dob
+2018-11-14 11:32:46,623 - __main__ - DEBUG - column.columndesc  :Employee Date of Birth
+2018-11-14 11:32:46,623 - __main__ - DEBUG - column.datatype    :date
