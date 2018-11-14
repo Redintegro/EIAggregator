@@ -1,0 +1,2 @@
+# EIAggregator
+Generic Aggregation Engine
